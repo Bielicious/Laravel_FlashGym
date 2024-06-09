@@ -1,0 +1,112 @@
+        /* CSS styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url(1.jpg) no-repeat center fixed;
+            background-size: cover;
+        }
+
+        .navbar {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .button {
+            text-align: center;
+            padding: 50px 0;
+            background-position: center;
+            color: #fff;
+        }
+
+        .location {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f2f2f2;
+        }
+
+        .free-trial-btn,
+        .join-now-btn {
+            background-color: #535151;
+            color: #fff;
+            border: none;
+            border-radius: 8%;
+            opacity: 89%;
+            padding: 20px 40px;
+            font-size: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        /* Carousel styling */
+        .carousel {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            margin-top: 20px;
+            text-align: center; 
+        }
+
+        .carousel-container {
+            display: flex;
+            justify-content: center; 
+            transition: transform 0.5s ease;
+            border-radius: 30px;
+        }
+
+        .carousel-item {
+            flex: 0 0 auto;
+            max-width: 50%;
+            margin: 0 10px; 
+        }
+
+        .carousel-item img {
+            max-width: 100%;
+            height: auto; 
+        }
+
+        .carousel-button {
+            position: fixed;
+            top: 43%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px 10px;
+            font-size: 18px;
+            z-index: 1;
+            border-radius: 50px;
+        }
+
+        .prev {
+            left: 30%;
+        }
+
+        .next {
+            right: 30%;
+        }
